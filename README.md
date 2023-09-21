@@ -8,7 +8,7 @@ The varied difficulty of Sudoku puzzles offers an exciting domain for measuring 
 
 ## Guide for installing required software, and running the algorithms
 
-## Running the Whole Generating, Solving, and Grading Process
+# Running the Whole Generating, Solving, and Grading Process
 1. Install DEMYSTIFY:
 Go to https://github.com/stacs-cp/demystify/blob/master/README.md and follow DEMYSTIFY and Conjure install instructions.
 
@@ -30,7 +30,7 @@ node Difficulty_API.js.
 Output:
 The results will be displayed in the terminal, for that specific puzzle, and you can observe all results in the BoardStorage folders.
 
-## Testing pre-generated puzzles
+# Testing pre-generated puzzles
 1. Input Board:
 To grade existing puzzles, say from other publishers, you can input the boards manually in the Grade_Testing.js file.
 
@@ -38,8 +38,7 @@ To grade existing puzzles, say from other publishers, you can input the boards m
 To have DEMYSTIFY solve a specific puzzle and get a grade output, you need to go the Difficulty_API.js and comment out line 26 and uncomment out line 19 to access the pre generated boards. Change the code in line 29 and set the board variable equal to the board you previously filled in i.e., hard_board.
 Also comment out line 292 (shows Solution, which you already have) and remove line 309.
 
-## Running the Process for Miracle Sudoku
-
+# Running the Process for Miracle Sudoku
 1. Change Some Code to Account for Different Puzzle Format:
 For DEMYSTIFY to solve a Miracle Sudoku puzzle instead of a Sudoku puzzle you need to change the code in line 96 of the Difficulty_API.js file from sudoku.eprime to miracle.eprime.
 Comment out line 26 (importing generic Sudoku) and uncomment out the line 23 (importing Miracle Sudoku).
