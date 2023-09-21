@@ -1,5 +1,5 @@
 
-## How to Run: 
+# How to Run: 
 
 Step 1: Install DEMYSTIFY
 Go to https://github.com/stacs-cp/demystify/blob/master/README.md and follow DEMYSTIFY and Conjure install instructions.
