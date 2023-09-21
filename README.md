@@ -6,8 +6,6 @@
 
 The varied difficulty of Sudoku puzzles offers an exciting domain for measuring the difficulty of logic problems for humans. Current approaches focus on directly modelling how humans solve Sudoku puzzles by summing the perceived difficulty of the solving techniques used when solving them. This paper proposes a more general method for measuring the difficulty of Sudoku puzzles using a solving algorithm based on Minimal Unsatisfiable Sets (MUSes). Based on insight from existing grading methods, the formula thoughtfully accounts for the different aspects of difficulty in solving a Sudoku puzzle by combining the number and size of MUSes. The paper compares the formula grades to puzzle grades from notable Sudoku publishers. The results indicate that MUSes can assess the difficulty level of Sudoku puzzles. Additionally, this paper presents a Backtracking Search algorithm that can generate new Sudoku (and Miracle Sudoku) puzzles to create a library of puzzles for further statistical analysis. 
 
-## Guide for installing required software, and running the algorithms
-
 # Running the Whole Generating, Solving, and Grading Process
 1. Install DEMYSTIFY:
 Go to https://github.com/stacs-cp/demystify/blob/master/README.md and follow DEMYSTIFY and Conjure install instructions.
