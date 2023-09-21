@@ -1,17 +1,24 @@
 
-# Guide for Running Different Algorithms
+# A General Grading Method for Sudoku Puzzles Based on Minimal Unsatisfiable Sets (MUSes)
 
-## Running the Whole Generating, Solving, and Grading Process
-"1" Install DEMYSTIFY
+
+## Abstract 
+
+The varied difficulty of Sudoku puzzles offers an exciting domain for measuring the difficulty of logic problems for humans. Current approaches focus on directly modelling how humans solve Sudoku puzzles by summing the perceived difficulty of the solving techniques used when solving them. This paper proposes a more general method for measuring the difficulty of Sudoku puzzles using a solving algorithm based on Minimal Unsatisfiable Sets (MUSes). Based on insight from existing grading methods, the formula thoughtfully accounts for the different aspects of difficulty in solving a Sudoku puzzle by combining the number and size of MUSes. The paper compares the formula grades to puzzle grades from notable Sudoku publishers. The results indicate that MUSes can assess the difficulty level of Sudoku puzzles. Additionally, this paper presents a Backtracking Search algorithm that can generate new Sudoku (and Miracle Sudoku) puzzles to create a library of puzzles for further statistical analysis.
+
+## Guide for installing required software, and running the algorithms
+
+## 1. Running the Whole Generating, Solving, and Grading Process
+1. Install DEMYSTIFY:
 Go to https://github.com/stacs-cp/demystify/blob/master/README.md and follow DEMYSTIFY and Conjure install instructions.
 
-2. Clone MastersDissertation into Working Repository
+2. Clone MastersDissertation into Working Repository:
 Have Conjure, DEMYSTIFY, and the MastersDissertation folders in same location to make accessing them easier.
 
-3. Make Modifications to Difficulty_API.js File
+3. Make Modifications to Difficulty_API.js File:
 Go to line 92. From here you will need to change the locations of where you want to run the python scripts from (which run the DEMYSTIFY solver). To be safe, you can hard code the exact locations of all the specific files. Modify the file locations listed in lines 92 to 104 to the location where you have the Conjure, DEMYSTIFY, and MastersDissertation files.
 
-4. Set Working Directory to Sudoku folder.
+4. Set Working Directory to Sudoku folder:
 Open a new terminal at the MastersDissertation folder, and then run:
 ```
 cd Sudoku
@@ -20,7 +27,7 @@ cd Sudoku
 ```
 node Difficulty_API.js. 
 ```
-### Output
+Output:
 The results will be displayed in the terminal, for that specific puzzle, and you can observe all results in the BoardStorage folders.
 
 ## Testing pre-generated puzzles
