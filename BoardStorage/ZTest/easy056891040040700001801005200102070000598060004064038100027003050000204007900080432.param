@@ -1,0 +1,26 @@
+ The Puzzle: 
+
+ 0 5 6 | 8 9 1 | 0 4 0
+ 0 4 0 | 7 0 0 | 0 0 1
+ 8 0 1 | 0 0 5 | 2 0 0
+- - - - - - - - - - - -
+ 1 0 2 | 0 7 0 | 0 0 0
+ 5 9 8 | 0 6 0 | 0 0 4
+ 0 6 4 | 0 3 8 | 1 0 0
+- - - - - - - - - - - -
+ 0 2 7 | 0 0 3 | 0 5 0
+ 0 0 0 | 2 0 4 | 0 0 7
+ 9 0 0 | 0 8 0 | 4 3 2
+
+
+------------------------------------------------------------------------------------------------------------------
+List of Smallest Minimal Unsatisfiable Sets (MUSes) at Each Solving Step in Descending Order: 
+0 
+------------------------------------------------------------------------------------------------------------------
+Difficulty Metrics: 
+Largest 'smallest' MUS Size (0), Sum of MUS Sizes (0), Empty Cell Count (43)
+-------------------------------------------------------------------------------------------------------------------
+Difficulty Score: 430 = X1 * largestMUSSize  + Y1 * SumOfMUSSizes + Z1  * EmptyCellCount
+Where, X1: 80, Y1: 10, Z1: 10
+Assigned Grade: Easy . Puzzle is from sudoku.com, given grade: Easy.
+

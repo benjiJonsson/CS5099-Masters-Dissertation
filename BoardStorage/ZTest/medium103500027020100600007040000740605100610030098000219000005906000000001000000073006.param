@@ -1,0 +1,27 @@
+ The Puzzle: 
+
+ 1 0 3 | 5 0 0 | 0 2 7
+ 0 2 0 | 1 0 0 | 6 0 0
+ 0 0 7 | 0 4 0 | 0 0 0
+- - - - - - - - - - - -
+ 7 4 0 | 6 0 5 | 1 0 0
+ 6 1 0 | 0 3 0 | 0 9 8
+ 0 0 0 | 2 1 9 | 0 0 0
+- - - - - - - - - - - -
+ 0 0 5 | 9 0 6 | 0 0 0
+ 0 0 0 | 0 0 1 | 0 0 0
+ 0 0 0 | 0 7 3 | 0 0 6
+
+
+------------------------------------------------------------------------------------------------------------------
+List of Smallest Minimal Unsatisfiable Sets (MUSes) at Each Solving Step in Descending Order: 
+0 
+------------------------------------------------------------------------------------------------------------------
+Difficulty Metrics: 
+Largest 'smallest' MUS Size (0), Sum of MUS Sizes (0), Empty Cell Count (51)
+Average MUS Size per Empty Cell (0)
+-------------------------------------------------------------------------------------------------------------------
+Difficulty Score: 510 = X1 * largestMUSSize  + Y1 * SumOfMUSSizes + Z1  * EmptyCellCount
+Where, X1: 80, Y1: 10, Z1: 10
+Assigned Grade: Medium . Puzzle is from sudoku.com, given grade: Medium.
+

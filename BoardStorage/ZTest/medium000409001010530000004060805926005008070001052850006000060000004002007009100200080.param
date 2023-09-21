@@ -1,0 +1,27 @@
+ The Puzzle: 
+
+ 0 0 0 | 4 0 9 | 0 0 1
+ 0 1 0 | 5 3 0 | 0 0 0
+ 0 0 4 | 0 6 0 | 8 0 5
+- - - - - - - - - - - -
+ 9 2 6 | 0 0 5 | 0 0 8
+ 0 7 0 | 0 0 1 | 0 5 2
+ 8 5 0 | 0 0 6 | 0 0 0
+- - - - - - - - - - - -
+ 0 6 0 | 0 0 0 | 0 0 4
+ 0 0 2 | 0 0 7 | 0 0 9
+ 1 0 0 | 2 0 0 | 0 8 0
+
+
+------------------------------------------------------------------------------------------------------------------
+List of Smallest Minimal Unsatisfiable Sets (MUSes) at Each Solving Step in Descending Order: 
+4,4,4,4,4,4,3,3,3,3,3,3,3,3,0 
+------------------------------------------------------------------------------------------------------------------
+Difficulty Metrics: 
+Largest 'smallest' MUS Size (4), Sum of MUS Sizes (48), Empty Cell Count (51)
+Average MUS Size per Empty Cell (1)
+-------------------------------------------------------------------------------------------------------------------
+Difficulty Score: 1310 = X1 * largestMUSSize  + Y1 * SumOfMUSSizes + Z1  * EmptyCellCount
+Where, X1: 80, Y1: 10, Z1: 10
+Assigned Grade: Hard . Puzzle is from sudoku.com, given grade: Medium.
+
