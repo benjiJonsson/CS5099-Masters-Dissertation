@@ -5,18 +5,18 @@
 1. Install DEMYSTIFY
 Go to https://github.com/stacs-cp/demystify/blob/master/README.md and follow DEMYSTIFY and Conjure install instructions.
 
-### Step 2: Clone MastersDissertation into Working Repository
+2. Clone MastersDissertation into Working Repository
 Have Conjure, DEMYSTIFY, and the MastersDissertation folders in same location to make accessing them easier.
 
-### Step 3: Make Modifications to Difficulty_API.js File
+3. Make Modifications to Difficulty_API.js File
 Go to line 92. From here you will need to change the locations of where you want to run the python scripts from (which run the DEMYSTIFY solver). To be safe, you can hard code the exact locations of all the specific files. Modify the file locations listed in lines 92 to 104 to the location where you have the Conjure, DEMYSTIFY, and MastersDissertation files.
 
-### Step 4: Set Working Directory to Sudoku folder.
+4. Set Working Directory to Sudoku folder.
 Open a new terminal at the MastersDissertation folder, and then run:
 ```
 cd Sudoku
 ```
-### Step 5:  Then, run: 
+5. Then, run: 
 ```
 node Difficulty_API.js. 
 ```
