@@ -34,7 +34,7 @@ The results will be displayed in the terminal, for that specific puzzle, and you
 1. Input Board:
 To grade existing puzzles, say from other publishers, you can input the boards manually in the Grade_Testing.js file.
 
-2.Modify Code:
+2. Modify Code:
 To have DEMYSTIFY solve a specific puzzle and get a grade output, you need to go the Difficulty_API.js and comment out line 26 and uncomment out line 19 to access the pre generated boards. Change the code in line 29 and set the board variable equal to the board you previously filled in i.e., hard_board.
 Also comment out line 292 (shows Solution, which you already have) and remove line 309.
 
