@@ -2,7 +2,7 @@
 # Guide for Running Different Algorithms
 
 ## Running the Whole Generating, Solving, and Grading Process
-### Step 1: Install DEMYSTIFY
+1. Install DEMYSTIFY
 Go to https://github.com/stacs-cp/demystify/blob/master/README.md and follow DEMYSTIFY and Conjure install instructions.
 
 ### Step 2: Clone MastersDissertation into Working Repository
