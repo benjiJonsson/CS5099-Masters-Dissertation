@@ -1,6 +1,9 @@
 
 # A General Grading Method for Sudoku Puzzles Based on Minimal Unsatisfiable Sets (MUSes)
 
+## Summary 
+
+This is the repository for my masters dissertation paper in CS5099 'Dissertation in Computer Science. The goal of the paper is to create a general method for grading Sudoku puzzles. Please see Appendix of paper (attatched as PDF in repository). Grade: (18/20) Distinction. 
 
 ## Abstract 
 
