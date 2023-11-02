@@ -3,7 +3,7 @@
 
 ## Summary 
 
-This is the repository for my masters dissertation paper in CS5099 'Dissertation in Computer Science. The goal of the paper is to create a general method for grading Sudoku puzzles. Please see Appendix of paper (attatched as PDF in repository). Grade: (18/20) Distinction. 
+This is the repository for my masters dissertation paper in CS5099 'Dissertation in Computer Science. The goal of the paper is to create a general method for grading Sudoku puzzles. Grade: (18/20) Distinction. Please see Appendix of paper (attatched as PDF in repository) for detailed instructions on running the generating and grading algorithms. 
 
 ## Abstract 
 
