@@ -3,7 +3,7 @@
 
 ## Summary 
 
-This is the repository for my masters dissertation paper in CS5099 'Dissertation in Computer Science from the University of St Andrews. The goal of the paper is to create a general method for grading Sudoku puzzles. Grade: (18/20) Distinction. Please see Appendix of paper (attatched as PDF in repository) for detailed instructions on running the generating and grading algorithms. 
+CS5099 Dissertation in Computer Science from the University of St Andrews. The goal of the paper is to create a general method for grading Sudoku puzzles using Minimal Unsatisfiable Sets. GPA: (18/20) Distinction. Please see Appendix of paper (attatched as PDF in repository) for detailed instructions on running the generating and grading algorithms. 
 
 ## Abstract 
 
